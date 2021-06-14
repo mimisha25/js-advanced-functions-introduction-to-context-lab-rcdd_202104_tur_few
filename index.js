@@ -70,4 +70,4 @@ let createEmployeeRecord = function(arr){
      return arrayOfEmployeeRecords.reduce(function(memo, rec){
          return memo + allWagesFor(rec)
      }, 0)
- } 
+ }
